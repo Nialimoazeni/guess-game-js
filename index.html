@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بازی حدس عدد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🎯 بازی حدس عدد</h1>
+    <p>یک عدد بین ۱ تا ۱۰۰ حدس بزن!</p>
+
+    <div class="game">
+        <input
+            type="number"
+            id="guessInput"
+            min="1"
+            max="100"
+            placeholder="عدد خود را وارد کن"
+        >
+
+        <button id="guessButton">ثبت حدس</button>
+
+        <p id="message">منتظر حدس تو هستم!</p>
+        <p>تعداد تلاش‌ها: <span id="attempts">۰</span></p>
+
+        <button id="restartButton">شروع دوباره</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
